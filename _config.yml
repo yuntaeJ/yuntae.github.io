@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site settings
-title: Yuntae Jeon | 전윤태
+title: Yuntae Jeon
 description: Yuntae Jeon CV
 url: 'https://yuntaej.github.io'
 baseurl: '/'
