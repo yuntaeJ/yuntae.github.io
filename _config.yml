@@ -22,6 +22,7 @@
 title: Yuntae Jeon | 전윤태
 description: Yuntae Jeon CV
 url: 'https://yuntaej.github.io'
+baseurl: '/'
 google_analytics: 'G-XVJPSB1JCK'
 # disqus_shortname: 'your-disqus-name'
 
