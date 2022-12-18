@@ -1,3 +1,446 @@
----
-layout: home 
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Favicon code from realfavicongenerator.net -->
+  <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="/assets/img/icons/rocket_icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/rocket_icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8b51a3">
+  <meta name="msapplication-TileColor" content="#563d7c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--jQuery-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"
+    integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css"
+    integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+  <title>Yuntae Jeon | 전윤태</title>
+  <meta name="generator" content="Jekyll v4.2.2" />
+  <meta property="og:title" content="Yuntae Jeon" />
+  <meta name="author" content="Yuntae Jeon" />
+  <meta property="og:locale" content="en_GB" />
+  <meta name="description" content="Yuntae Jeon - Homepage" />
+  <meta property="og:description" content="Yuntae Jeon - Homepage" />
+  <link rel="canonical" href="http://localhost:4000/" />
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:site_name" content="Yuntae Jeon" />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Yuntae Jeon"},"description":"Yuntae Jeon - Homepage","headline":"Yuntae Jeon (전윤태)","name":"Yuntae Jeon - 전윤태","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/face.png"},"name":"Yuntae Jeon"},"url":"http://localhost:4000/"}</script>
+  <!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <div class="container">
+
+
+    <section id="header-nav">
+      <header>
+        <nav class="navbar navbar-expand-md bg-light" style="background-color: #ffffff;">
+          <div class="container-fluid mt-3">
+            <!-- <image class="icon" src="/assets/img/icons/rocket_icon.png"></image> -->
+            <button class="navbar-toggler my-auto" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse mb-0 pb-3" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+
+                <li class="nav-item my-auto mx-auto pe-3 text-center current"><a class="nav-link active"
+                    aria-current="page" href="/">Home</a></li>
+
+                <li class="nav-item btn-nav my-auto mx-auto pe-3 text-center ">
+                  <a class="nav-link" href="/publications.html">
+                    <span data-hover="Publications">Publications</span>
+                  </a>
+                </li>
+
+
+                <li class="nav-item btn-nav my-auto mx-auto pe-3 text-center ">
+                  <a class="nav-link" href="/projects.html">
+                    <span data-hover="Projects">Projects</span>
+                  </a>
+                </li>
+
+
+                <!-- publications -->
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+  </div><!-- This Tag means End .container -->
+
+  <div id="portfolio">
+    <section id="about-me">
+      <div class="row">
+        <div class="img-wrap col-12 col-md-4">
+          <div class="img">
+            <img src="/assets/img/face.png" alt="user_image">
+          </div>
+          <ul id="icons">
+            <li>
+              <a href="matilto:jyt0131@gmail.com" target="_blank" title="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://drive.google.com/file/d/19Uesz-N-3UQ75Cg-vMNuzw-moNQLD7gK/view?usp=sharing"
+                target="_blank" title="CV">
+                <i class="ai ai-cv-square ai-1x"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/yuntaeJ" target="_blank" title="Github">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+        </div>
+
+        <div class="text-wrap col-12 col-md-8">
+          <h2 class="username">Yuntae Jeon | 전윤태</h2>
+          <div class="description">
+            <p>I’m pursuing dual B.S. degree at
+              <span style="text-decoration: underline;">Civil Engineering & Computer Science</span> in Sungkyunkwan
+              University(SKKU), South Korea.
+              <br />
+              <br /> "My dream is building a home on Mars."
+              <br />
+              <br />
+          </div>
+          <div class="research_interest">
+            <p class="title">RESEARCH INTERESTS</p>
+            <ul class="interests-list">
+
+              <li class="interest">3D Computer Vision</li>
+
+              <li class="interest">| Machine Learning</li>
+
+              <li class="interest">| Construction Automation and Robotics</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg"></div>
+    </section>
+    <br />
+    <br />
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume" style="background-color: #F4F3EA;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>B.S. in Sungkyunkwan University, South Korea
+              </h4>
+              <h5>2019.03 – Present</h5>
+              <p> <b>Sungkyunkwan University, South Korea</b> </p>
+              <ul>
+                <li>Civil Engineering</li>
+                
+                <br>
+                <li>Computer Science</li>
+                <ul style="list-style-type:none;">
+                  <li>Best Graduation Paper Award (3rd)</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Career</h3>
+            <div class="resume-item">
+              <h4>Researcher
+              </h4>
+              <h5>2021.09 - Present</h5>
+              <p> <b>Smartinside AI. Co. ltd, South Korea</b> </p>
+              <ul>
+                <li>Development of AI Model</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Back-end Developer
+              </h4>
+              <h5>2021.01 - 2021.08</h5>
+              <p> <b>All Great. Co. ltd, South Korea</b> </p>
+              <ul>
+                <li>Back-end development & Idea Suggestion</li>
+                <li>Accepted to Pre-Startup Package by Korea Institute of Startup & Entrepreneurship Development,
+                  2021.05 ($50000)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+
+
+    <!-- project section -->
+    <section id="resume" class="resume" style="background-color: #CBD0D8;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Award</h3>
+            <div class="resume-item">
+              <h4>Best Graduation Paper, 2022.11
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>SKKU, Dean of the College of Computing and Informatics Award (3rd)</li>
+                <li>An Evolutionary Neural Architecture Search Method for Optimizing Industrial Object Detection Models
+                  <br> (advised by Prof. Jaekwang Kim)
+                </li> 
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>AI Championship, 2021.11
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>Minister of SMEs and Startups Award (1st)</li>
+                <li>AI based risk analysis in electricity facilities, Korea Electric Power Corporation(KEPCO)'s project
+                </li> 
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>K-water Big-Data Contest, 2020.10
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>President of Korea Water Resources Corporation Award (2nd)</li>
+                <li>AI based flood prediction and establishment of safety parking service platform, Korea Water Resources Corporation(K-water)'s project
+                </li> 
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Open Infra Development Contest, 2020.08
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>ManTech Award (4rd)</li>
+                <li>A container-based MSA service that predicts trends through machine learning using big data
+                </li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Scholarship</h3>
+            <div class="resume-item">
+              <h4>Korean Society of Civil Engineers(KSCE) Scholarship, 2022
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>President of KSCE</li>
+                <li>KSCE Park Chang-ho Scholarship ($3000)</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Sungkyunkwan University(SKKU) Scholarship, 2022
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>President of SKKU</li>
+                <li>Student Success & Creative Student Scholarship ($4000)</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Sungkyunkwan University(SKKU) Scholarship, 2021
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>President of SKKU Alumni Association</li>
+                <li>Global Center Contributor Scholarship ($2000)</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Korea Institute of Registered Architectures(KIRA) Scholarship, 2020
+              </h4>
+              <ul style="list-style-type:square;">
+                <li>President of Gyeongsangbuk-do Architectural Society, KIRA ($3000)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- modal -->
+    <script type="text/javascript" src="/assets/js/modal.js"></script>
+    <script>
+      const buttonLeft = document.getElementById('slideLeft');
+      const buttonRight = document.getElementById('slideRight');
+
+      buttonRight.onclick = function () {
+        card_container = document.getElementById('card-container');
+        document.getElementById('card-container').scrollLeft += card_container.querySelector(".card").offsetWidth + 30;
+      };
+      buttonLeft.onclick = function () {
+        card_container = document.getElementById('card-container');
+        document.getElementById('card-container').scrollLeft -= card_container.querySelector(".card").offsetWidth + 30;
+      };
+    </script>
+
+    <section id="recentpubs">
+      <div class="recentpubs-wrap">
+        <p class="title">PUBLICATIONS</p>
+        <h2 class="bibliography">Journal</h2>
+        <h3 class="bibliography">2022</h3>
+        <ol class="bibliography">
+          <li><!-- Entry bib key -->
+            <!-- Title -->
+            <div class="title">Forest-Fire Response System Usintg Deep-Learning-Based Approaches With CCTV Images and Wheather Data
+              <!-- Additional Comments -->
+            </div>
+            <!-- Author -->
+            <div class="author">
+              Dai Quoc Tran,&nbsp;Minsoo Park,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Jinyeong Bak&nbsp;and&nbsp;Seunghee Park
+            </div>
+
+            <!-- Journal/Book title and date -->
+
+            <div class="third-line">
+              IEEE ACCESS, 2022
+            </div>
+          </li>
+        </ol>
+        <h2 class="bibliography">Conference</h2>
+        <h3 class="bibliography">2022</h3>
+        <ol class="bibliography">
+          <li><!-- Entry bib key -->
+            <!-- Title -->
+            <div class="title">An Evolutionary Neural Architecture Search Method for Optimizing Industrial Object Detection Models
+              <!-- Additional Comments -->
+            </div>
+            <!-- Author -->
+            <div class="author">
+              <em>Yuntae Jeon</em>&nbsp;and&nbsp;Jaekwang Kim
+            </div>
+
+            <!-- Journal/Book title and date -->
+
+            <div class="third-line">
+              In Proceedings of KIIS Spring Conference 2022 Vol. 32, No. 1, pp. 26-27, 2022
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      Copyright © 2022
+      <a href="">Yuntae Jeon</a>.
+      Powered by Jekyll.
+    </div>
+  </footer>
+
+
+  <script type="text/javascript" src="/assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/assets/js/Headroom.js"></script>
+  <script type="text/javascript" src="/assets/js/jQuery.headroom.js"></script>
+  <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+
+  <script>
+    var divs = document.querySelectorAll("div.project-content");
+    $('div.project-content').each(function (index) {
+      var filename = $(this).text();
+      filename = filename.replace(/\s/g, '');
+      filename = filename.replace("/_posts/", "");
+      filename = filename.replace(".md", ".html");
+      filename = filename.substring(0, 4) + "/" + filename.substring(5);
+      filename = filename.substring(0, 7) + "/" + filename.substring(8);
+      filename = filename.substring(0, 10) + "/" + filename.substring(11);
+
+      console.log(filename);
+      $.ajax({
+        url: filename, dataType: "html", success: function (data) {
+          const node = new DOMParser().parseFromString(data, "text/html");
+          divs[index].innerHTML = node.getElementById("post").getElementsByClassName("post-content")[0].innerHTML;
+        }
+      })
+    });
+
+  </script>
+  </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+    crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNQHE0TJJL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RNQHE0TJJL');
+  </script>
+</body>
+
+</html>
