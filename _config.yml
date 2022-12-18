@@ -37,6 +37,9 @@ analytics:
     tracking_id          : "G-XVJPSB1JCK"
     anonymize_ip         : # true, false (default)
 
+google_analytics:
+  id: 'G-XVJPSB1JCK' 
+
 # Build settings
 theme: minima
 plugins:
