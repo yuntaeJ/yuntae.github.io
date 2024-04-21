@@ -6721,6 +6721,21 @@ footer .footer a {
     margin-top: 1rem
 }
 
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.edu-check {
+    list-style-type: none; /* Ensures no default bullet points are shown */
+    margin-left: -20px; /* Removes any margin on the left */
+}
+
+.edu-check li:before {
+    content: '✓';  /* Check mark character */
+    padding-right: 10px; /* Adds space between the check mark and the list item text */
+}
+
 /*# sourceMappingURL=main.css.map */
 
 /*--------------------------------------------------------------
@@ -6745,7 +6760,6 @@ footer .footer a {
     line-height: 18px;
     font-size: 18px;
     font-weight: 600;
-    text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #050d18;
     margin-bottom: 10px;
